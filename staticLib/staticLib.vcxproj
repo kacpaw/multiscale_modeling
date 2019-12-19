@@ -125,6 +125,7 @@
   <ItemGroup>
     <ClCompile Include="Board.cpp" />
     <ClCompile Include="BoundaryConditions.cpp" />
+    <ClCompile Include="EnergyDistribution.cpp" />
     <ClCompile Include="GrainsBoard.cpp" />
     <ClCompile Include="Inclusions.cpp" />
     <ClCompile Include="Neighberhood.cpp" />
@@ -132,6 +133,7 @@
   <ItemGroup>
     <ClInclude Include="Board.h" />
     <ClInclude Include="BoundaryConditions.h" />
+    <ClInclude Include="EnergyDistribution.h" />
     <ClInclude Include="GrainsBoard.h" />
     <ClInclude Include="Inclusions.h" />
     <ClInclude Include="Neighberhood.h" />

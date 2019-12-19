@@ -18,12 +18,13 @@ public:
 	~Board();
 	void set(int x, int y, int value);
 	void set(Point point, int value);
+	void set(std::list<int> ids, int new_id);
 	int get(int x, int y);
 	int get(Point point);
 	int count(int value);
 
-
-
+	void random(std::list<int> ignore, int ids);
+	
 	void clear(std::list<int> ignore);
 
 	int getWidth();
